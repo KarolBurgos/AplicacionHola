@@ -26,15 +26,15 @@ public class MainActivity extends AppCompatActivity {
     public void mostrar(View view)
     {
         String valor1 = et1.getText().toString();
-        t1.setText(getResources().getString(R.string.respuesta) + "" + valor1);
+        t1.setText(getResources().getString(R.string.respuesta) + "  " + valor1);
 
     }
     public void acercade(View view) {
         Intent i = new Intent(this, AcercaDe.class );
         startActivity(i);
-        String v1= et1.getText().toString();
-        String s="Hola"+(v1);
-        t2.setText(s);
+        //String v1= et1.getText().toString();
+        //String s="Hola"+(v1);
+        //t2.setText(s);
 
     }
 }
