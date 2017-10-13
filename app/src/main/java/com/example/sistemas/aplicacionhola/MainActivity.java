@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
     public void acercade(View view) {
         Intent i = new Intent(this, AcercaDe.class );
         startActivity(i);
-        //String v1= et1.getText().toString();
-        //String s="Hola"+(v1);
-        //t2.setText(s);
+       /* String v1= et1.getText().toString();
+        String s="Hola"+(v1);
+        t2.setText(s);*/
 
     }
 }
